@@ -350,4 +350,24 @@ https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjUwMHB4Iiwi
 */
 h1 {
   font-size: clamp(1rem, -0.5714rem + 6.2857vw, 3.75rem);
+}
+
+/* ////////////////////////////////////////// */
+/* règles de la pagination                             */
+/* ////////////////////////////////////////// */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.global {
+  display: flex;
+  justify-content: center;
+}
+
+.global > section,
+.global > header,
+.global > footer {
+  width: 1100px;
+  border: 1px solid #aaa;
 }/*# sourceMappingURL=style.css.map */
