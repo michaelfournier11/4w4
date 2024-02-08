@@ -14,9 +14,9 @@ body {
 .global > header,
 .global > footer{
 // flex : grow shrink basis
-    flex : 0 1 900px;
+flex: var(--largeur-central);
     // border : 1px solid #aaa;
-    background-color : rgba(#1754d7, .1 );
+    background-color : rgba(#17d7b4, .1 );
     padding : 5rem 1rem;
 }
 
