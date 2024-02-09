@@ -21,10 +21,11 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 */
 :root {
   --couleur-arriere-entete: #ffffff;
-  --couleur-arriere-accueil: rgb(7, 53, 161)fff;
+  --couleur-arriere-accueil: rgb(106, 127, 178)fff;
   --couleur-arriere-evenement: #8e2c2c;
   --couleur-arriere-footer: #0bc327;
   --couleur-arriere-galerie: #492a3a;
+  --border-central: border : 1px solid #aaa;
   --largeur-central: flex: 0 1 900px;
 }
 
@@ -40,12 +41,38 @@ https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjUwMHB4Iiwi
 */
 h1 {
   font-size: clamp(1.5rem, -2.875rem + 14vw, 5rem);
-  color: rgba(9, 41, 24, 0.3);
+  color: rgba(60, 177, 115, 0.3);
+  background-color: #144512;
 }
 
 h2 {
   font-size: clamp(1rem, -0.5714rem + 6.2857vw, 3.75rem);
-  color: rgba(9, 41, 24, 0.7);
+  color: rgba(23, 18, 69, 0.7);
+  background-color: #123645;
+}
+
+h3 {
+  font-size: clamp(1rem, -0.5714rem + 2.4578vw, 1rem);
+  color: rgba(61, 18, 69, 0.9);
+  background-color: #6a2b51;
+}
+
+h4 {
+  font-size: clamp(1rem, -4rem + 16vw, 3rem);
+  color: rgba(18, 69, 67, 0);
+  background-color: #46a47a;
+}
+
+h5 {
+  font-size: clamp(1rem, -11rem + 32vw, 3rem);
+  color: rgba(18, 69, 54, 0.4);
+  background-color: #35718b;
+}
+
+h6 {
+  font-size: clamp(3rem, -0.357rem + 4.55vw, 2rem);
+  color: rgba(93, 46, 38, 0.7);
+  background-color: #74476d;
 }
 
 /* ////////////////////////////////////////// */
@@ -67,6 +94,7 @@ body {
 .global > header,
 .global > footer {
   flex: var(--largeur-central);
+  border: var(--border-central);
   background-color: rgba(23, 215, 180, 0.1);
   padding: 5rem 1rem;
 }

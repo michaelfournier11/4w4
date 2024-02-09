@@ -8,16 +8,31 @@ https://clamp.font-size.app/?config=eyJyb290IjoiMTYiLCJtaW5XaWR0aCI6IjUwMHB4Iiwi
 
 h1 {
     font-size: clamp(1.5rem, -2.875rem + 14vw, 5rem);
-    color : rgba(#092918, .3);
+    color : rgba(#3cb173, .3);
+    background-color: #144512;
 }
 h2 { 
     font-size: clamp(1rem, -0.5714rem + 6.2857vw, 3.75rem);
-    color : rgba(#092918, .7);
+    color : rgba(#171245, .7);
+    background-color: #123645;
 }
-h3 {}
-h4 {}
-h5 {}
-h6 {}
+h3 {font-size: clamp(1rem, -0.5714rem + 2.4578vw, 1rem);
+    color : rgba(#3d1245, .9);
+    background-color: #6a2b51;
+}
+    
+h4 {font-size: clamp(1rem, -4rem + 16vw, 3rem);
+    color : rgba(#124543, -0.2);
+    background-color: #46a47a;
+}
+h5 {font-size: clamp(1rem, -11rem + 32vw, 3rem);
+    color : rgba(#124536, .4);
+    background-color: #35718b;
+}
+h6 {font-size: clamp(3rem, -0.357rem + 4.55vw, 2rem);
+    color : rgba(#5d2e26, .7);
+    background-color: #74476d;
+}
 
 p {}
 

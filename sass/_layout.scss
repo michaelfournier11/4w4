@@ -15,7 +15,7 @@ body {
 .global > footer{
 // flex : grow shrink basis
 flex: var(--largeur-central);
-    // border : 1px solid #aaa;
+border: var(--border-central);
     background-color : rgba(#17d7b4, .1 );
     padding : 5rem 1rem;
 }
